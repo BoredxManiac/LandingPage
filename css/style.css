@@ -36,7 +36,7 @@ body{
     overflow: hidden;
 }
 .pages{
-     height: 500px;
+     height: 500px; /* adjust to fit 2 of your .page items */
     overflow-y: scroll;
       scroll-behavior: smooth;
 }
