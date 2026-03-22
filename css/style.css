@@ -1,15 +1,61 @@
 *{
     padding:0;
     margin:0;
+    box-sizing:border-box;
 }
 body{
-    width:70%;
+    width:95%;
     margin: 0 auto;
     text-align: center;
+    border-radius: 1%;
+    background-color: #f5f0ff;
+}
+.position{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.wrapper{
+    background-color: #d8b4fe;
+    min-height: 94vh;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+.pages, .portfoliotxts{
+    background-color: #fef3f2;
+    border-radius: 16px;
 }
 .pages{
-    margin-top: 20px;
-    width:93%;
     display: flex;
-    align-items:center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 15px;
+    overflow: hidden;
+}
+.pages{
+     height: 500px; /* adjust to fit 2 of your .page items */
+    overflow-y: scroll;
+      scroll-behavior: smooth;
+}
+
+.portfoliotxts{
+    flex: 1;
+    margin-top: 20px;
+    padding: 15px;
+}
+.portfoliotxt{
+    margin-top: 20px;
+}
+h1{
+    font-size: 30px;
+    color: #a855f7;
+}
+h2{
+    color: #a855f7;
+}
+.portfoliotxtp{
+    color: #64748b;
 }
